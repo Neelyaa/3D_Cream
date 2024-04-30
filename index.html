@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Présentation et intégration de cosmétique réalisé en 3D sur Spline">
+    <link rel="icon" href="/assets/cream_drop2.png" type="icon/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap" rel="stylesheet">
+    <title>3D Cream</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span>3D Cream</span>
+            <ul class="nav_links">
+                <li><a href="#">Propriétés</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="spline_container">
+            <div class="spline_container-3d">
+                <spline-viewer url="https://prod.spline.design/E56WW0zsljmm1szB/scene.splinecode"></spline-viewer>
+            </div>
+        </div>
+
+        <div class="slider_container">
+            <h1>Crème Flawless</h1>
+
+            <div class="slider">
+                <div class="slider_info active">
+                    <h2>Acide glycolique</h2>
+                    <p>8,5%Un acide alpha-hydroxylé qui dissout les liens entre les cellules de peau morte pour
+                        favoriser leur élimination et permettre la formation de nouvelles cellules.</p>
+                </div>
+
+                <div class="slider_info">
+                    <h2>Acide salicylique</h2>
+                    <p>Un acide bêta-hydroxy, l'acide salicylique, aide à régénérer les cellules de la peau et
+                        resurface
+                        votre peau pour la rendre douce et lumineuse.</p>
+                </div>
+
+                <div class="slider_info">
+                    <h2>Extrait de thé vert</h2>
+                    <p>Le thé vert contient une gamme de polyphénols, qui ont des effets antioxydants prouvés pour
+                        protéger la peau. L'extrait que nous utilisons est un concentré très pur, qui contient un
+                        pourcentage élevé d'épigallocatéchine.</p>
+                </div>
+
+                <div class="slider_nav">
+                    <span class="slider_nav_btn active"></span>
+                    <span class="slider_nav_btn"></span>
+                    <span class="slider_nav_btn"></span>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer id="contact">
+        <div class="footer_container">
+            <div class="footer_links">
+                <ul class="footer_links-list">
+                    <li class="footer_links-categories">Produits</li>
+                    <li class="footer_links-li"><img src="/assets/cream_drop.png" alt="icon goutte"> Composants</li>
+                    <li class="footer_links-li"><img src="/assets/cream_drop.png" alt="icon goutte"> Nos gammes</li>
+                    <li class="footer_links-li"><img src="/assets/cream_drop.png" alt="icon goutte"> FAQ Beauté</li>
+                </ul>
+
+                <ul class="footer_links-list">
+                    <li class="footer_links-categories">Condition générales</li>
+                    <li class="footer_links-li"><img src="/assets/cream_drop.png" alt="icon goutte"> Mentions légales
+                    </li>
+                    <li class="footer_links-li"><img src="/assets/cream_drop.png" alt="icon goutte"> Données
+                        personnelles</li>
+                    <li class="footer_links-li"><img src="/assets/cream_drop.png" alt="icon goutte"> Préférence cookies
+                    </li>
+                </ul>
+
+                <ul class="footer_links-list">
+                    <li class="footer_links-categories">à propos</li>
+                    <li class="footer_links-li"><img src="/assets/cream_drop.png" alt="icon goutte"> Carrières</li>
+                    <li class="footer_links-li"><img src="/assets/cream_drop.png" alt="icon goutte"> Nos engagements
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer_links-bottom">
+
+                <div class="footer_links-more">
+                    <ul>
+                        <li>Politique de confidentialité</li>
+                        <li>Condition d'utilisation</li>
+                    </ul>
+                </div>
+
+                <div class="footer_links-socials">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/no%C3%A9mie-nouader-b6a059232/" target="_blank"><img
+                                    src="/assets/linkedin.png" alt="icon linkedin"></a></li>
+                        <li><a href="https://github.com/Neelyaa" target="_blank"><img src="/assets/github.png"
+                                    alt="icon github"></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.94/build/spline-viewer.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
