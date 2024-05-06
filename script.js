@@ -1,3 +1,13 @@
+const lenis = new Lenis()
+
+function raf(time) {
+  lenis.raf(time)
+  requestAnimationFrame(raf)
+}
+
+requestAnimationFrame(raf)
+
+
 let slideIndex = 0;
 const slides = document.querySelectorAll('.slider_info');
 const dots = document.querySelectorAll('.slider_nav_btn');
