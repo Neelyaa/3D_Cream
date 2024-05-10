@@ -17,6 +17,7 @@ function showSlide(index) {
     slides.forEach((slide, i) => {
         slide.classList.toggle('active', i === index);
     });
+    
     dots.forEach((dot, i) => {
         dot.classList.toggle('active', i === index);
     });

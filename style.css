@@ -277,26 +277,26 @@ html.lenis body {
 
 @media screen and (max-width: 376px) {
 
-    .slider {
-        height: 50vh !important;
+    .slider_container .slider {
+        height: 50vh;
     }
 
 }
 
 @media screen and (max-width: 410px) {
 
-    .spline_container {
+    main .spline_container,
+    main .spline_container-3d {
         width: 100vw;
-        height: 140vh !important;
-    }
-
-    .spline_container-3d {
-        width: 100vw;
-        height: 140vh !important;
+        height: 140vh;
     }
 }
 
 @media screen and (max-width: 575px) {
+
+    .slider_container .slider {
+        width: 80%;
+    }
 
     .footer_links-bottom,
     .footer_links-more ul {
@@ -368,6 +368,6 @@ html.lenis body {
 
     .slider {
         height: 40vh;
-        width: 80%;
+        width: 55%;
     }
 }
